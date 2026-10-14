@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Dicki Firgiawan</title>
+    <!-- Google Font Modern -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: #334155;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 45px 50px;
+            border-radius: 16px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.2);
+        }
+
+        header {
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #0f172a;
+            letter-spacing: -0.5px;
+            margin-bottom: 6px;
+            text-transform: capitalize;
+        }
+
+        header p {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2563eb;
+            margin-bottom: 12px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            color: #64748b;
+            line-height: 1.8;
+        }
+
+        .contact-info a {
+            color: #0284c7;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .contact-info a:hover {
+            color: #0369a1;
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 28px;
+        }
+
+        h2 {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            color: #0f172a;
+            border-bottom: 2px solid #2563eb;
+            display: inline-block;
+            padding-bottom: 4px;
+            margin-bottom: 16px;
+        }
+
+        .bio-text {
+            font-size: 14px;
+            color: #475569;
+            line-height: 1.7;
+        }
+
+        .item {
+            margin-bottom: 18px;
+            padding-left: 12px;
+            border-left: 3px solid #e2e8f0;
+            transition: border-color 0.2s;
+        }
+
+        .item:hover {
+            border-left-color: #2563eb;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 600;
+            font-size: 15px;
+            color: #1e293b;
+        }
+
+        .item-sub {
+            font-style: normal;
+            font-size: 13px;
+            color: #64748b;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            margin-left: 18px;
+            font-size: 14px;
+            color: #475569;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            margin-left: 0;
+            margin-top: 8px;
+        }
+
+        .skills-list li {
+            background-color: #f1f5f9;
+            color: #1e293b;
+            border: 1px solid #cbd5e1;
+            border-radius: 20px;
+            padding: 6px 14px;
+            font-size: 13px;
+            font-weight: 500;
+            margin-bottom: 0;
+            transition: all 0.2s ease;
+        }
+
+        .skills-list li:hover {
+            background-color: #2563eb;
+            color: #ffffff;
+            border-color: #2563eb;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px 20px;
+            }
+            .item-header {
+                flex-direction: column;
+                gap: 4px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Dicki Firgiawan</h1>
+        <p>Pengembang Web / Software Engineer</p>
+        <div class="contact-info">
+            Email: <a href="mailto:dickifirgiawan@gmail.com">dickifirgiawan@gmail.com</a> | 
+            Telepon: +6283847473124 | 
+            Lokasi: Jakarta, Indonesia <br>
+            LinkedIn: <a href="https://linkedin.com/in/dickifirgiawan" target="_blank">linkedin.com/in/dickifirgiawan</a> | 
+            GitHub: <a href="https://github.com/2406067-jpg" target="_blank">github.com/2406067-jpg</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Profil Singkat</h2>
+        <p class="bio-text">
+            Pengembang web yang berfokus pada pembuatan aplikasi web responsif dan efisien. Berpengalaman dalam pengembangan front-end maupun back-end, serta memiliki minat kuat dalam keamanan siber dan arsitektur jaringan.
+        </p>
+    </section>
+
+    <section>
+        <h2>Pengalaman Kerja</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>Web Developer — PT Teknologi Nusantara</span>
+                <span>2024 – 2028</span>
+            </div>
+            <div class="item-sub">Jakarta, Indonesia</div>
+            <ul>
+                <li>Mengembangkan dan memelihara aplikasi web menggunakan HTML, CSS, JavaScript, dan framework modern.</li>
+                <li>Mengoptimalkan performa situs web sehingga meningkatkan kecepatan muat halaman sebesar 25%.</li>
+                <li>Bekerja sama dengan tim lintas fungsi untuk merancang RESTful API.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Pendidikan</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>S1 Teknik Informatika — Universitas Contoh</span>
+                <span>2024 – 2028</span>
+            </div>
+            <div class="item-sub">IPK: 3.75 / 4.00</div>
+            <ul>
+                <li>Fokus studi: Pemrograman Web, Basis Data, dan Jaringan Komputer.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Keahlian</h2>
+        <ul class="skills-list">
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript</li>
+            <li>PHP / Node.js</li>
+            <li>SQL / MySQL</li>
+            <li>Jaringan Komputer (TCP/IP, OSI Model)</li>
+            <li>Git & GitHub</li>
+            <li>Linux / CLI</li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>

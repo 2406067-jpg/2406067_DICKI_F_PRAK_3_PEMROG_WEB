@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek - Nama Anda</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #ffffff;
+            background-color: #035a8d;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        header h1 {
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: underline;
+            font-size: 14px;
+            margin-left: 15px;
+        }
+        section {
+            margin-bottom: 25px;
+            color: #000000;
+        }
+        h2 {
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 3px;
+            margin-bottom: 15px;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        .project-card {
+            border: 1px solid #000;
+            padding: 15px;
+        }
+        .project-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .project-date {
+            font-size: 12px;
+            font-weight: normal;
+            font-style: italic;
+        }
+        .project-desc {
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 12px;
+            list-style: none;
+        }
+        .tech-stack li {
+            border: 1px solid #000;
+            padding: 2px 6px;
+            font-size: 11px;
+        }
+        .project-links a {
+            color: #000;
+            text-decoration: underline;
+            font-size: 12px;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div>
+            <h1>Daftar Proyek</h1>
+            <p style="font-size: 13px;">Portofolio & Hasil Karya Pengembangan Web</p>
+        </div>
+        <nav>
+            <a href="resume.html">Resume</a>
+            <a href="index.html">Beranda</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Proyek Utama</h2>
+        <div class="project-grid">
+            
+            <!-- Proyek 1 -->
+            <div class="project-card">
+                <div class="project-title">
+                    <span>Sistem Manajemen Toko Online</span>
+                    <span class="project-date">2025</span>
+                </div>
+                <p class="project-desc">
+                    Aplikasi web e-commerce berbasis RESTful API dengan fitur keranjang belanja, manajemen stok barang, dan integrasi gerbang pembayaran.
+                </p>
+                <ul class="tech-stack">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Node.js</li>
+                    <li>MySQL</li>
+                </ul>
+                <div class="project-links">
+                    <a href="#" target="_blank">Demo Langsung &rarr;</a>
+                    <a href="#" target="_blank">Kode Sumber (GitHub) &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Proyek 2 -->
+            <div class="project-card">
+                <div class="project-title">
+                    <span>Aplikasi pemantau Jaringan & Server</span>
+                    <span class="project-date">2024</span>
+                </div>
+                <p class="project-desc">
+                    Dashboard pemantauan status server dan lalu lintas jaringan secara langsung, dilengkapi dengan pemindai port sederhana dan notifikasi status HTTP.
+                </p>
+                <ul class="tech-stack">
+                    <li>PHP</li>
+                    <li>Linux / CLI</li>
+                    <li>JavaScript</li>
+                    <li>Chart.js</li>
+                </ul>
+                <div class="project-links">
+                    <a href="#" target="_blank">Kode Sumber (GitHub) &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Proyek 3 -->
+            <div class="project-card">
+                <div class="project-title">
+                    <span>Aplikasi Catatan Tugas & Jadwal</span>
+                    <span class="project-date">2024</span>
+                </div>
+                <p class="project-desc">
+                    Aplikasi web sederhana untuk mengelola daftar tugas harian dan jadwal kegiatan dengan penyimpanan lokal (Local Storage) di peramban.
+                </p>
+                <ul class="tech-stack">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript ES6</li>
+                </ul>
+                <div class="project-links">
+                    <a href="#" target="_blank">Demo Langsung &rarr;</a>
+                    <a href="#" target="_blank">Kode Sumber (GitHub) &rarr;</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
